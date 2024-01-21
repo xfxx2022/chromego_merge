@@ -115,7 +115,7 @@ proxies:
     headers:
       host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: None_vmess_41
+- name: United States_vmess_41
   type: vmess
   server: cm.dongtaiwang3.com
   port: 443
@@ -299,7 +299,7 @@ proxy-groups:
   - United States_ss_11
   - United States_vless_21
   - France_vless_31
-  - None_vmess_41
+  - United States_vmess_41
   - Canada_vmess_51
   - Taiwan_hysteria_61
   - France_hysteria2_71
@@ -321,7 +321,7 @@ proxy-groups:
   - United States_ss_11
   - United States_vless_21
   - France_vless_31
-  - None_vmess_41
+  - United States_vmess_41
   - Canada_vmess_51
   - Taiwan_hysteria_61
   - France_hysteria2_71
@@ -343,7 +343,7 @@ proxy-groups:
   - United States_ss_11
   - United States_vless_21
   - France_vless_31
-  - None_vmess_41
+  - United States_vmess_41
   - Canada_vmess_51
   - Taiwan_hysteria_61
   - France_hysteria2_71
