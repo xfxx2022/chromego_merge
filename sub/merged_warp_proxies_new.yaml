@@ -43,17 +43,18 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: United States_ss_01
+- name: United States_vless_01
+  type: vless
+  server: 108.181.5.18
+  port: 22222
+  uuid: 1bf69b3a-4673-4d02-a311-cb6380eaddce
+  tls: false
+  network: tcp
+- name: United States_ss_02
   type: ss
   server: 109.104.152.144
   port: 111
   password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: China_ss_02
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27103
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
 - name: China_ss_03
   type: ss
@@ -217,10 +218,10 @@ proxies:
   port: 27102
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: United States_ss_21
+- name: Taiwan_ss_21
   type: ss
-  server: 109.104.152.144
-  port: 111
+  server: www.dtku40.xyz
+  port: 22222
   password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
 - name: United States_ss_31
@@ -229,12 +230,20 @@ proxies:
   port: 111
   password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
-- name: United States_ss_41
-  type: ss
-  server: 109.104.152.144
-  port: 111
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
+- name: United States_vless_41
+  type: vless
+  server: 109.104.152.101
+  port: 11111
+  udp: true
+  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  tls: true
+  servername: m.media-amazon.com
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: None_vless_51
   type: vless
   server: 198.41.193.226
@@ -2056,8 +2065,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_ss_01
-  - China_ss_02
+  - United States_vless_01
+  - United States_ss_02
   - China_ss_03
   - China_ss_04
   - China_ss_05
@@ -2079,9 +2088,9 @@ proxy-groups:
   - China_ss_110
   - China_ss_111
   - China_ss_112
-  - United States_ss_21
+  - Taiwan_ss_21
   - United States_ss_31
-  - United States_ss_41
+  - United States_vless_41
   - None_vless_51
   - None_vless_52
   - United States_vless_53
@@ -2236,8 +2245,8 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - United States_ss_01
-  - China_ss_02
+  - United States_vless_01
+  - United States_ss_02
   - China_ss_03
   - China_ss_04
   - China_ss_05
@@ -2259,9 +2268,9 @@ proxy-groups:
   - China_ss_110
   - China_ss_111
   - China_ss_112
-  - United States_ss_21
+  - Taiwan_ss_21
   - United States_ss_31
-  - United States_ss_41
+  - United States_vless_41
   - None_vless_51
   - None_vless_52
   - United States_vless_53
@@ -2416,8 +2425,8 @@ proxy-groups:
 - name: 负载均衡
   type: load-balance
   proxies:
-  - United States_ss_01
-  - China_ss_02
+  - United States_vless_01
+  - United States_ss_02
   - China_ss_03
   - China_ss_04
   - China_ss_05
@@ -2439,9 +2448,9 @@ proxy-groups:
   - China_ss_110
   - China_ss_111
   - China_ss_112
-  - United States_ss_21
+  - Taiwan_ss_21
   - United States_ss_31
-  - United States_ss_41
+  - United States_vless_41
   - None_vless_51
   - None_vless_52
   - United States_vless_53
