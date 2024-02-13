@@ -49,6 +49,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: Taiwan_vmess_12
+  type: vmess
+  server: www.dtku40.xyz
+  port: 40011
+  cipher: auto
+  uuid: c506bccb-06b8-4f1a-bc3e-41ed4929c003
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /soh5qvuQ/
 - name: United States_vless_21
   type: vless
   server: 108.181.5.18
@@ -1847,10 +1860,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_hy2_3
+- name: France_hy2_3
   type: hysteria2
-  server: 108.181.24.77
-  port: 43656
+  server: 51.159.77.198
+  port: 29277
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1905,6 +1918,7 @@ proxy-groups:
   - DIRECT
   - United States_hysteria2_01
   - United States_tuic_11
+  - Taiwan_vmess_12
   - United States_vless_21
   - United States_tuic_31
   - United States_vless_41
@@ -2056,7 +2070,7 @@ proxy-groups:
   - France_hy2_0
   - United States_hy2_1
   - France_hy2_2
-  - United States_hy2_3
+  - France_hy2_3
   - France_reality_1
   - France_reality_2
   - France_reality_3
@@ -2068,6 +2082,7 @@ proxy-groups:
   proxies:
   - United States_hysteria2_01
   - United States_tuic_11
+  - Taiwan_vmess_12
   - United States_vless_21
   - United States_tuic_31
   - United States_vless_41
@@ -2219,7 +2234,7 @@ proxy-groups:
   - France_hy2_0
   - United States_hy2_1
   - France_hy2_2
-  - United States_hy2_3
+  - France_hy2_3
   - France_reality_1
   - France_reality_2
   - France_reality_3
