@@ -62,13 +62,19 @@ proxies:
   network: ws
   ws-opts:
     path: /soh5qvuQ/
-- name: United States_vless_21
-  type: vless
+- name: United States_vmess_21
+  type: vmess
   server: 108.181.5.18
-  port: 22222
-  uuid: 1bf69b3a-4673-4d02-a311-cb6380eaddce
+  port: 33300
+  cipher: auto
+  uuid: 44bee251-795d-4d7a-8ecb-c4322aec05be
+  alterId: 0
   tls: false
-  network: tcp
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /xajVDSGJ/
 - name: United States_tuic_31
   type: tuic
   server: 109.104.152.101
@@ -1868,20 +1874,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_reality_1
-  type: vless
-  server: 51.159.77.153
-  port: 11111
-  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: m.media-amazon.com
-  reality-opts:
-    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
-    short-id: 6ba85179e30d4fc2
 - name: France_reality_2
   type: vless
   server: 62.210.101.0
@@ -1919,7 +1911,7 @@ proxy-groups:
   - United States_hysteria2_01
   - United States_tuic_11
   - Taiwan_vmess_12
-  - United States_vless_21
+  - United States_vmess_21
   - United States_tuic_31
   - United States_vless_41
   - None_vless_51
@@ -2071,7 +2063,6 @@ proxy-groups:
   - United States_hy2_1
   - France_hy2_2
   - France_hy2_3
-  - France_reality_1
   - France_reality_2
   - France_reality_3
 - name: 自动选择
@@ -2083,7 +2074,7 @@ proxy-groups:
   - United States_hysteria2_01
   - United States_tuic_11
   - Taiwan_vmess_12
-  - United States_vless_21
+  - United States_vmess_21
   - United States_tuic_31
   - United States_vless_41
   - None_vless_51
@@ -2235,7 +2226,6 @@ proxy-groups:
   - United States_hy2_1
   - France_hy2_2
   - France_hy2_3
-  - France_reality_1
   - France_reality_2
   - France_reality_3
 rules:
