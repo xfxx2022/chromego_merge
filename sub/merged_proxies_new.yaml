@@ -51,7 +51,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: United States_vmess_12
+- name: None_vmess_12
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -66,7 +66,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: None_vmess_13
+- name: United States_vmess_13
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -81,7 +81,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: booty-pensions-scheduling-blogging.trycloudflare.com
-- name: United States_vmess_14
+- name: None_vmess_14
   type: vmess
   server: yh5.dtku41.xyz
   port: 8080
@@ -96,7 +96,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: fantastic-doe-bids-ended.trycloudflare.com
-- name: United States_vmess_21
+- name: None_vmess_21
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -126,7 +126,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: United States_vmess_23
+- name: None_vmess_23
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -186,7 +186,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: None_vmess_27
+- name: United States_vmess_27
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -276,7 +276,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: None_vmess_31
+- name: United States_vmess_31
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -291,7 +291,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: None_vmess_32
+- name: United States_vmess_32
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -321,7 +321,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
     headers:
       host: technological-mel-fill-decide.trycloudflare.com
-- name: None_vmess_34
+- name: United States_vmess_34
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -681,6 +681,18 @@ proxies:
   auth_str: dongtaiwang.com
   up: 2
   down: 10
+- name: United States_shadowtls_1
+  type: ss
+  server: 109.104.152.186
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 2mLw+aTguEUrvK/Jamxr4CY/RbLCL/MmfWJQ7c6bXe8=
+  plugin: shadow-tls
+  client-fingerprint: chrome
+  plugin-opts:
+    host: nijigen-works.jp
+    password: UcMMbVQBzIUAcdC12ju6lV9j3rjK3cAQiZoYCDk1h/g=
+    version: 3
 - name: United States_hy_0
   type: hysteria
   server: 108.181.5.133
@@ -777,25 +789,25 @@ proxy-groups:
   - DIRECT
   - United States_hysteria2_01
   - None_vmess_11
-  - United States_vmess_12
-  - None_vmess_13
-  - United States_vmess_14
-  - United States_vmess_21
+  - None_vmess_12
+  - United States_vmess_13
+  - None_vmess_14
+  - None_vmess_21
   - None_vmess_22
-  - United States_vmess_23
+  - None_vmess_23
   - United States_vmess_24
   - None_vmess_25
   - None_vmess_26
-  - None_vmess_27
+  - United States_vmess_27
   - United States_vmess_28
   - United States_vmess_29
   - United States_vmess_210
   - United States_vmess_211
   - United States_vmess_212
-  - None_vmess_31
-  - None_vmess_32
+  - United States_vmess_31
+  - United States_vmess_32
   - None_vmess_33
-  - None_vmess_34
+  - United States_vmess_34
   - Canada_vmess_41
   - Canada_vmess_42
   - Canada_vmess_43
@@ -820,6 +832,7 @@ proxy-groups:
   - United States_hysteria2_71
   - United States_ss_81
   - Taiwan_hysteria_91
+  - United States_shadowtls_1
   - United States_hy_0
   - United States_hy_1
   - Taiwan_hy_2
@@ -836,25 +849,25 @@ proxy-groups:
   proxies:
   - United States_hysteria2_01
   - None_vmess_11
-  - United States_vmess_12
-  - None_vmess_13
-  - United States_vmess_14
-  - United States_vmess_21
+  - None_vmess_12
+  - United States_vmess_13
+  - None_vmess_14
+  - None_vmess_21
   - None_vmess_22
-  - United States_vmess_23
+  - None_vmess_23
   - United States_vmess_24
   - None_vmess_25
   - None_vmess_26
-  - None_vmess_27
+  - United States_vmess_27
   - United States_vmess_28
   - United States_vmess_29
   - United States_vmess_210
   - United States_vmess_211
   - United States_vmess_212
-  - None_vmess_31
-  - None_vmess_32
+  - United States_vmess_31
+  - United States_vmess_32
   - None_vmess_33
-  - None_vmess_34
+  - United States_vmess_34
   - Canada_vmess_41
   - Canada_vmess_42
   - Canada_vmess_43
@@ -879,6 +892,7 @@ proxy-groups:
   - United States_hysteria2_71
   - United States_ss_81
   - Taiwan_hysteria_91
+  - United States_shadowtls_1
   - United States_hy_0
   - United States_hy_1
   - Taiwan_hy_2
