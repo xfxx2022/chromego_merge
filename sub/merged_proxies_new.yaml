@@ -51,7 +51,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: None_vmess_12
+- name: United States_vmess_12
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -289,11 +289,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_hy_1
+- name: France_hy_1
   type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -320,8 +320,8 @@ proxies:
 - name: United States_hy_3
   type: hysteria
   server: 109.104.152.194
-  port: 25304
-  ports: 47000-48000
+  port: 58510
+  ports: 58510
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -371,7 +371,7 @@ proxy-groups:
   - DIRECT
   - United States_hysteria2_01
   - None_vmess_11
-  - None_vmess_12
+  - United States_vmess_12
   - None_vmess_13
   - None_vmess_14
   - United States_vless_21
@@ -384,7 +384,7 @@ proxy-groups:
   - United States_ss_91
   - United States_shadowtls_1
   - United States_hy_0
-  - United States_hy_1
+  - France_hy_1
   - Taiwan_hy_2
   - United States_hy_3
   - United States_hy2_0
@@ -399,7 +399,7 @@ proxy-groups:
   proxies:
   - United States_hysteria2_01
   - None_vmess_11
-  - None_vmess_12
+  - United States_vmess_12
   - None_vmess_13
   - None_vmess_14
   - United States_vless_21
@@ -412,7 +412,7 @@ proxy-groups:
   - United States_ss_91
   - United States_shadowtls_1
   - United States_hy_0
-  - United States_hy_1
+  - France_hy_1
   - Taiwan_hy_2
   - United States_hy_3
   - United States_hy2_0
