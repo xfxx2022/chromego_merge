@@ -80,7 +80,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: Netherlands_vless_22
+- name: None_vless_22
   type: vless
   server: yh9.dtku41.xyz
   port: 443
@@ -104,7 +104,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: United States_vless_24
+- name: None_vless_24
   type: vless
   server: yh1.dtku41.xyz
   port: 443
@@ -116,7 +116,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: None_vmess_31
+- name: United States_vmess_31
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -362,10 +362,10 @@ proxy-groups:
   - United States_tuic_01
   - United States_hysteria_11
   - None_vless_21
-  - Netherlands_vless_22
+  - None_vless_22
   - None_vless_23
-  - United States_vless_24
-  - None_vmess_31
+  - None_vless_24
+  - United States_vmess_31
   - United States_tuic_41
   - United States_vless_51
   - United States_ss_61
@@ -387,10 +387,10 @@ proxy-groups:
   - United States_tuic_01
   - United States_hysteria_11
   - None_vless_21
-  - Netherlands_vless_22
+  - None_vless_22
   - None_vless_23
-  - United States_vless_24
-  - None_vmess_31
+  - None_vless_24
+  - United States_vmess_31
   - United States_tuic_41
   - United States_vless_51
   - United States_ss_61
@@ -412,10 +412,10 @@ proxy-groups:
   - United States_tuic_01
   - United States_hysteria_11
   - None_vless_21
-  - Netherlands_vless_22
+  - None_vless_22
   - None_vless_23
-  - United States_vless_24
-  - None_vmess_31
+  - None_vless_24
+  - United States_vmess_31
   - United States_tuic_41
   - United States_vless_51
   - United States_ss_61
