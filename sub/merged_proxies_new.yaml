@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_vmess_0100
+- name: None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2291,11 +2291,11 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: France_hy_0
+- name: United States_hy_0
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2305,11 +2305,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_hy_1
+- name: United States_hy_1
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2319,11 +2319,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_hy_2
+- name: United States_hy_2
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2333,11 +2333,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_hy_3
+- name: United States_hy_3
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2484,7 +2484,7 @@ proxy-groups:
   - United States_vmess_097
   - None_vmess_098
   - None_vmess_099
-  - United States_vmess_0100
+  - None_vmess_0100
   - None_vmess_0101
   - None_vmess_11
   - None_vmess_12
@@ -2537,10 +2537,10 @@ proxy-groups:
   - None_vmess_74
   - Unknown_ss_81
   - Unknown_hysteria_91
-  - France_hy_0
-  - France_hy_1
-  - France_hy_2
-  - France_hy_3
+  - United States_hy_0
+  - United States_hy_1
+  - United States_hy_2
+  - United States_hy_3
   - France_hy2_0
   - France_hy2_1
   - France_hy2_2
@@ -2650,7 +2650,7 @@ proxy-groups:
   - United States_vmess_097
   - None_vmess_098
   - None_vmess_099
-  - United States_vmess_0100
+  - None_vmess_0100
   - None_vmess_0101
   - None_vmess_11
   - None_vmess_12
@@ -2703,10 +2703,10 @@ proxy-groups:
   - None_vmess_74
   - Unknown_ss_81
   - Unknown_hysteria_91
-  - France_hy_0
-  - France_hy_1
-  - France_hy_2
-  - France_hy_3
+  - United States_hy_0
+  - United States_hy_1
+  - United States_hy_2
+  - United States_hy_3
   - France_hy2_0
   - France_hy2_1
   - France_hy2_2
