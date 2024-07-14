@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_vmess_096
+- name: None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_vmess_097
+- name: None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -2285,17 +2285,18 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: Unknown_ss_81
-  type: ss
-  server: 23.170.40.77
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-    version: 3
+- name: Taiwan_tuic_81
+  server: www2.dtku44.xyz
+  port: 11224
+  type: tuic
+  uuid: 285524a5-18ae-4bf4-8e89-473dfdc3a212
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Unknown_hysteria_91
   type: hysteria
   server: 23.170.40.77
@@ -2513,8 +2514,8 @@ proxy-groups:
   - Canada_vmess_093
   - None_vmess_094
   - United States_vmess_095
-  - United States_vmess_096
-  - United States_vmess_097
+  - None_vmess_096
+  - None_vmess_097
   - None_vmess_098
   - None_vmess_099
   - None_vmess_0100
@@ -2568,7 +2569,7 @@ proxy-groups:
   - Canada_vmess_72
   - None_vmess_73
   - None_vmess_74
-  - Unknown_ss_81
+  - Taiwan_tuic_81
   - Unknown_hysteria_91
   - United States_hy_0
   - United States_hy_1
@@ -2676,8 +2677,8 @@ proxy-groups:
   - Canada_vmess_093
   - None_vmess_094
   - United States_vmess_095
-  - United States_vmess_096
-  - United States_vmess_097
+  - None_vmess_096
+  - None_vmess_097
   - None_vmess_098
   - None_vmess_099
   - None_vmess_0100
@@ -2731,7 +2732,7 @@ proxy-groups:
   - Canada_vmess_72
   - None_vmess_73
   - None_vmess_74
-  - Unknown_ss_81
+  - Taiwan_tuic_81
   - Unknown_hysteria_91
   - United States_hy_0
   - United States_hy_1
@@ -2839,8 +2840,8 @@ proxy-groups:
   - Canada_vmess_093
   - None_vmess_094
   - United States_vmess_095
-  - United States_vmess_096
-  - United States_vmess_097
+  - None_vmess_096
+  - None_vmess_097
   - None_vmess_098
   - None_vmess_099
   - None_vmess_0100
@@ -2894,7 +2895,7 @@ proxy-groups:
   - Canada_vmess_72
   - None_vmess_73
   - None_vmess_74
-  - Unknown_ss_81
+  - Taiwan_tuic_81
   - Unknown_hysteria_91
   - United States_hy_0
   - United States_hy_1
