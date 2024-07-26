@@ -1498,7 +1498,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_vmess_098
+- name: United States_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_vmess_0100
+- name: United States_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2625,9 +2625,9 @@ proxy-groups:
   - United States_vmess_095
   - None_vmess_096
   - None_vmess_097
-  - None_vmess_098
+  - United States_vmess_098
   - None_vmess_099
-  - None_vmess_0100
+  - United States_vmess_0100
   - None_vmess_0101
   - None_vmess_11
   - None_vmess_12
@@ -2795,9 +2795,9 @@ proxy-groups:
   - United States_vmess_095
   - None_vmess_096
   - None_vmess_097
-  - None_vmess_098
+  - United States_vmess_098
   - None_vmess_099
-  - None_vmess_0100
+  - United States_vmess_0100
   - None_vmess_0101
   - None_vmess_11
   - None_vmess_12
@@ -2965,9 +2965,9 @@ proxy-groups:
   - United States_vmess_095
   - None_vmess_096
   - None_vmess_097
-  - None_vmess_098
+  - United States_vmess_098
   - None_vmess_099
-  - None_vmess_0100
+  - United States_vmess_0100
   - None_vmess_0101
   - None_vmess_11
   - None_vmess_12
