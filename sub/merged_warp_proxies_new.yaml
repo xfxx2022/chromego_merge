@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip18.6016725.xyz
-- name: None_vmess_096
+- name: United States_vmess_096
   type: vmess
   server: japan.com
   port: 2095
@@ -1498,7 +1498,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip18.6016725.xyz
-- name: None_vmess_098
+- name: United States_vmess_098
   type: vmess
   server: russia.com
   port: 2095
@@ -3025,7 +3025,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip24.6929198.xyz
-- name: None_vmess_294
+- name: United States_vmess_294
   type: vmess
   server: icook.tw
   port: 2082
@@ -3633,9 +3633,9 @@ proxy-groups:
   - Canada_vmess_093
   - None_vmess_094
   - United States_vmess_095
-  - None_vmess_096
+  - United States_vmess_096
   - United States_vmess_097
-  - None_vmess_098
+  - United States_vmess_098
   - None_vmess_099
   - None_vmess_0100
   - None_vmess_0101
@@ -3736,7 +3736,7 @@ proxy-groups:
   - United States_vmess_291
   - None_vmess_292
   - Canada_vmess_293
-  - None_vmess_294
+  - United States_vmess_294
   - United States_vmess_295
   - None_vmess_296
   - None_vmess_297
@@ -3867,9 +3867,9 @@ proxy-groups:
   - Canada_vmess_093
   - None_vmess_094
   - United States_vmess_095
-  - None_vmess_096
+  - United States_vmess_096
   - United States_vmess_097
-  - None_vmess_098
+  - United States_vmess_098
   - None_vmess_099
   - None_vmess_0100
   - None_vmess_0101
@@ -3970,7 +3970,7 @@ proxy-groups:
   - United States_vmess_291
   - None_vmess_292
   - Canada_vmess_293
-  - None_vmess_294
+  - United States_vmess_294
   - United States_vmess_295
   - None_vmess_296
   - None_vmess_297
@@ -4101,9 +4101,9 @@ proxy-groups:
   - Canada_vmess_093
   - None_vmess_094
   - United States_vmess_095
-  - None_vmess_096
+  - United States_vmess_096
   - United States_vmess_097
-  - None_vmess_098
+  - United States_vmess_098
   - None_vmess_099
   - None_vmess_0100
   - None_vmess_0101
@@ -4204,7 +4204,7 @@ proxy-groups:
   - United States_vmess_291
   - None_vmess_292
   - Canada_vmess_293
-  - None_vmess_294
+  - United States_vmess_294
   - United States_vmess_295
   - None_vmess_296
   - None_vmess_297
