@@ -1438,7 +1438,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: None_vmess_094
+- name: United States_vmess_094
   type: vmess
   server: icook.tw
   port: 2095
@@ -1498,7 +1498,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: None_vmess_098
+- name: United States_vmess_098
   type: vmess
   server: russia.com
   port: 2095
@@ -1513,7 +1513,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: United States_vmess_099
+- name: None_vmess_099
   type: vmess
   server: singapore.com
   port: 2095
@@ -1543,7 +1543,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: None_vmess_0101
+- name: United States_vmess_0101
   type: vmess
   server: www.visa.com
   port: 2095
@@ -3040,7 +3040,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- name: None_vmess_295
+- name: United States_vmess_295
   type: vmess
   server: ip.sb
   port: 2082
@@ -3115,7 +3115,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- name: United States_vmess_2100
+- name: None_vmess_2100
   type: vmess
   server: skk.moe
   port: 2082
@@ -3130,7 +3130,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- name: United States_vmess_2101
+- name: None_vmess_2101
   type: vmess
   server: www.visa.com
   port: 2082
@@ -3631,14 +3631,14 @@ proxy-groups:
   - United States_vmess_091
   - None_vmess_092
   - Canada_vmess_093
-  - None_vmess_094
+  - United States_vmess_094
   - United States_vmess_095
   - None_vmess_096
   - None_vmess_097
-  - None_vmess_098
-  - United States_vmess_099
+  - United States_vmess_098
+  - None_vmess_099
   - None_vmess_0100
-  - None_vmess_0101
+  - United States_vmess_0101
   - None_vmess_11
   - None_vmess_12
   - None_vmess_13
@@ -3737,13 +3737,13 @@ proxy-groups:
   - None_vmess_292
   - Canada_vmess_293
   - None_vmess_294
-  - None_vmess_295
+  - United States_vmess_295
   - None_vmess_296
   - None_vmess_297
   - None_vmess_298
   - United States_vmess_299
-  - United States_vmess_2100
-  - United States_vmess_2101
+  - None_vmess_2100
+  - None_vmess_2101
   - None_vmess_31
   - None_vmess_32
   - None_vmess_33
@@ -3865,14 +3865,14 @@ proxy-groups:
   - United States_vmess_091
   - None_vmess_092
   - Canada_vmess_093
-  - None_vmess_094
+  - United States_vmess_094
   - United States_vmess_095
   - None_vmess_096
   - None_vmess_097
-  - None_vmess_098
-  - United States_vmess_099
+  - United States_vmess_098
+  - None_vmess_099
   - None_vmess_0100
-  - None_vmess_0101
+  - United States_vmess_0101
   - None_vmess_11
   - None_vmess_12
   - None_vmess_13
@@ -3971,13 +3971,13 @@ proxy-groups:
   - None_vmess_292
   - Canada_vmess_293
   - None_vmess_294
-  - None_vmess_295
+  - United States_vmess_295
   - None_vmess_296
   - None_vmess_297
   - None_vmess_298
   - United States_vmess_299
-  - United States_vmess_2100
-  - United States_vmess_2101
+  - None_vmess_2100
+  - None_vmess_2101
   - None_vmess_31
   - None_vmess_32
   - None_vmess_33
@@ -4099,14 +4099,14 @@ proxy-groups:
   - United States_vmess_091
   - None_vmess_092
   - Canada_vmess_093
-  - None_vmess_094
+  - United States_vmess_094
   - United States_vmess_095
   - None_vmess_096
   - None_vmess_097
-  - None_vmess_098
-  - United States_vmess_099
+  - United States_vmess_098
+  - None_vmess_099
   - None_vmess_0100
-  - None_vmess_0101
+  - United States_vmess_0101
   - None_vmess_11
   - None_vmess_12
   - None_vmess_13
@@ -4205,13 +4205,13 @@ proxy-groups:
   - None_vmess_292
   - Canada_vmess_293
   - None_vmess_294
-  - None_vmess_295
+  - United States_vmess_295
   - None_vmess_296
   - None_vmess_297
   - None_vmess_298
   - United States_vmess_299
-  - United States_vmess_2100
-  - United States_vmess_2101
+  - None_vmess_2100
+  - None_vmess_2101
   - None_vmess_31
   - None_vmess_32
   - None_vmess_33
