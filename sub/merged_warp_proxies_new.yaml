@@ -16600,7 +16600,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: e2.6929198.xyz
-- name: United States_vmess_2100
+- name: None_vmess_2100
   type: vmess
   server: skk.moe
   port: 2082
@@ -62890,7 +62890,7 @@ proxy-groups:
   - None_vmess_297
   - None_vmess_298
   - None_vmess_299
-  - United States_vmess_2100
+  - None_vmess_2100
   - United States_vmess_2101
   - None_vmess_31
   - None_vmess_32
@@ -67010,7 +67010,7 @@ proxy-groups:
   - None_vmess_297
   - None_vmess_298
   - None_vmess_299
-  - United States_vmess_2100
+  - None_vmess_2100
   - United States_vmess_2101
   - None_vmess_31
   - None_vmess_32
@@ -71130,7 +71130,7 @@ proxy-groups:
   - None_vmess_297
   - None_vmess_298
   - None_vmess_299
-  - United States_vmess_2100
+  - None_vmess_2100
   - United States_vmess_2101
   - None_vmess_31
   - None_vmess_32
