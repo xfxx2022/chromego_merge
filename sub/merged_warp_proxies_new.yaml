@@ -119,8 +119,8 @@ proxies:
   down: 55 Mbps
 - name: Unknown_hysteria_61
   type: hysteria
-  server: 2001:bc8:32d7:158::4
-  port: 50011
+  server: 2001:bc8:32d7:902::3
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -131,8 +131,8 @@ proxies:
   down: 55 Mbps
 - name: France_hysteria_71
   type: hysteria
-  server: 62.210.10.186
-  port: 50011
+  server: 62.210.196.68
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -141,10 +141,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Unknown_hysteria_81
+- name: France_hysteria_81
   type: hysteria
-  server: 2001:bc8:32d7:158::2
-  port: 50011
+  server: 62.210.196.68
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -155,8 +155,8 @@ proxies:
   down: 55 Mbps
 - name: Unknown_hysteria_91
   type: hysteria
-  server: 2001:bc8:32d7:158::4
-  port: 50011
+  server: 2001:bc8:32d7:902::3
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -222,7 +222,7 @@ proxy-groups:
   - Unknown_hysteria_51
   - Unknown_hysteria_61
   - France_hysteria_71
-  - Unknown_hysteria_81
+  - France_hysteria_81
   - Unknown_hysteria_91
   - Unknown_reality_0
   - Unknown_reality_3
@@ -237,7 +237,7 @@ proxy-groups:
   - Unknown_hysteria_51
   - Unknown_hysteria_61
   - France_hysteria_71
-  - Unknown_hysteria_81
+  - France_hysteria_81
   - Unknown_hysteria_91
   - Unknown_reality_0
   - Unknown_reality_3
@@ -252,7 +252,7 @@ proxy-groups:
   - Unknown_hysteria_51
   - Unknown_hysteria_61
   - France_hysteria_71
-  - Unknown_hysteria_81
+  - France_hysteria_81
   - Unknown_hysteria_91
   - Unknown_reality_0
   - Unknown_reality_3
